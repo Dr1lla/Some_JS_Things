@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7df8beed-6af3-433e-a300-be7c79bcca87" name="Changes" comment="Create project with JS homeworks">
-      <change afterPath="$PROJECT_DIR$/lesson_2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_2/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_3/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_2/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_2/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +69,9 @@
       <workItem from="1701186544446" duration="461000" />
       <workItem from="1701191969460" duration="643000" />
       <workItem from="1701259831414" duration="2029000" />
+      <workItem from="1701270687488" duration="2150000" />
+      <workItem from="1701279029389" duration="1264000" />
+      <workItem from="1701515729918" duration="2307000" />
     </task>
     <task id="LOCAL-00001" summary="Create project with JS homeworks">
       <option name="closed" value="true" />
@@ -85,5 +90,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create project with JS homeworks" />
     <option name="LAST_COMMIT_MESSAGE" value="Create project with JS homeworks" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lesson_2/main.js</url>
+          <line>64</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

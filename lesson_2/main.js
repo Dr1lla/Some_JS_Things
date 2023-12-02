@@ -1,62 +1,72 @@
+// Масив з різнорідними даними
 let arr1 = [164, 'someBlueberryPie', true, 8236, 11, 'Gubamy', false, 678, '286', 86];
 
-console.log(arr1[0])
-console.log(arr1[1])
-console.log(arr1[2])
-console.log(arr1[3])
-console.log(arr1[4])
-console.log(arr1[5])
-console.log(arr1[6])
-console.log(arr1[7])
-console.log(arr1[8])
-console.log(arr1[9])
+// Виведення елементів масиву arr1 за допомогою console.log
+console.log(arr1[0]);  // Виведе перший елемент (164)
+console.log(arr1[1]);  // Виведе другий елемент ('someBlueberryPie')
+console.log(arr1[2]);  // Виведе третій елемент (true)
+console.log(arr1[3]);  // Виведе четвертий елемент (8236)
+console.log(arr1[4]);  // Виведе п'ятий елемент (11)
+console.log(arr1[5]);  // Виведе шостий елемент ('Gubamy')
+console.log(arr1[6]);  // Виведе сьомий елемент (false)
+console.log(arr1[7]);  // Виведе восьмий елемент (678)
+console.log(arr1[8]);  // Виведе дев'ятий елемент ('286')
+console.log(arr1[9]);  // Виведе десятий елемент (86)
 
+// Об'єкт arr2, який містить книги
 let arr2 = {
-    book1:{
+    book1: {
         title: 'The Churchill factor. How one person changed history',
         pageCount: 400,
-        genre: 'Historical Roman'},
-    book2:{
+        genre: 'Historical Roman'
+    },
+    book2: {
         title: 'Romeo & Juliet',
         pageCount: 208,
-        genre: 'Art Roman'},
-    book3:{
+        genre: 'Art Roman'
+    },
+    book3: {
         title: 'Fairy Tale',
         pageCount: 592,
-        genre: 'Historical Roman'}
+        genre: 'Historical Roman'
+    }
 };
+
+// Об'єкт arr3, який містить книги з інформацією про авторів
 let arr3 = {
-    book4:{
+    book4: {
         title: 'The Churchill factor. How one person changed history',
         pageCount: 400,
         genre: 'Historical Roman',
         author: {
             name: 'Boris Johnson',
-            age: 59,
+            age: 59
         }
     },
-    book5:{
+    book5: {
         title: 'Romeo & Juliet',
         pageCount: 208,
         genre: 'Art Roman',
         author: {
             name: 'William Shakespeare',
-            age: 52 ,
+            age: 52
         }
     },
-    book6:{
+    book6: {
         title: 'Fairy Tale',
         pageCount: 592,
         genre: 'Historical Roman',
         author: {
             name: 'Stephen King',
-            age: 76,
+            age: 76
         }
     }
 };
+//Виведення елементів масиву arr2 та arr3 за допомогою console.log
 console.log(arr2)
 console.log(arr3)
 
+// Масив користувачів з об'єктами, що містять ім'я, логін і пароль
 let users = [
     { name: 'John Doe', username: 'john_doe', password: 'pass123' },
     { name: 'Alice Smith', username: 'alice_smith', password: 'secret456' },
@@ -69,10 +79,13 @@ let users = [
     { name: 'Daniel Lee', username: 'daniel_lee', password: 'danny456' },
     { name: 'Ella Miller', username: 'ella_miller', password: 'ella789' }
 ];
+
+// Виведення паролів користувачів за допомогою forEach
 users.forEach(function(user) {
     console.log(user.password);
 });
 
+// Логічне розгалуження для змінних x1, x2, x3
 let x1 = 1;
 let x2 = 0;
 let x3 = -3;
@@ -95,7 +108,7 @@ if (x3 === 0) {
     console.log('Невірно для x3');
 }
 
-
+// Логічне розгалуження для перевірки діапазону часу
 let time = 37;
 
 if (time >= 0 && time < 15) {
@@ -108,7 +121,7 @@ if (time >= 0 && time < 15) {
     console.log("Четверта четверть години");
 }
 
-
+// Логічне розгалуження для визначення декади місяця
 let day = 18;
 
 if (day >= 1 && day <= 10) {
@@ -120,8 +133,7 @@ if (day >= 1 && day <= 10) {
 } else {
     console.log("Число не входить в межі від 1 до 31");
 }
-
-
+// Визначення подій на тиждень за допомогою switch
 let dayOfWeek = 3;
 
 switch (dayOfWeek) {
@@ -150,7 +162,7 @@ switch (dayOfWeek) {
         console.log("Невірно введений порядковий номер дня тижня");
 }
 
-
+// Введення користувачем двох чисел та знаходження максимального
 let a = parseFloat(prompt("Введіть перше число:"));
 let b = parseFloat(prompt("Введіть друге число:"));
 
@@ -166,21 +178,19 @@ if (!isNaN(a) && !isNaN(b)) {
     console.log("Введені некоректні числа.");
 }
 
-
+// Присвоєння значення "default" змінній x, якщо вона є falsy
 let x = null;
-
 x = x || "default";
-
 console.log(x);
 
-
+// Перевірка курсів за допомогою циклу for та інструкції switch
 let coursesAndDurationArray = [
-    {title: 'JavaScript Complex', monthDuration: 5},
-    {title: 'Java Complex', monthDuration: 6},
-    {title: 'Python Complex', monthDuration: 6},
-    {title: 'QA Complex', monthDuration: 4},
-    {title: 'FullStack', monthDuration: 7},
-    {title: 'Frontend', monthDuration: 4}
+    { title: 'JavaScript Complex', monthDuration: 5 },
+    { title: 'Java Complex', monthDuration: 6 },
+    { title: 'Python Complex', monthDuration: 6 },
+    { title: 'QA Complex', monthDuration: 4 },
+    { title: 'FullStack', monthDuration: 7 },
+    { title: 'Frontend', monthDuration: 4 }
 ];
 
 // Індикатор, чи є курс із тривалістю більше або рівною 5 місяцям
