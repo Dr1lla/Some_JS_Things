@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7df8beed-6af3-433e-a300-be7c79bcca87" name="Changes" comment="Doing something in lesson_3 and added comments for the code.">
+    <list default="true" id="7df8beed-6af3-433e-a300-be7c79bcca87" name="Changes" comment="lesson_3 is done.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_3/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_3/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
       <workItem from="1701270687488" duration="2150000" />
       <workItem from="1701279029389" duration="1264000" />
       <workItem from="1701515729918" duration="3630000" />
-      <workItem from="1701530416053" duration="379000" />
+      <workItem from="1701530416053" duration="835000" />
     </task>
     <task id="LOCAL-00001" summary="Create project with JS homeworks">
       <option name="closed" value="true" />
@@ -86,7 +85,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701518281830</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lesson_3 is done.">
+      <option name="closed" value="true" />
+      <created>1701531102410</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701531102410</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,7 +102,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create project with JS homeworks" />
     <MESSAGE value="Doing something in lesson_3 and added comments for the code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Doing something in lesson_3 and added comments for the code." />
+    <MESSAGE value="lesson_3 is done." />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson_3 is done." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
